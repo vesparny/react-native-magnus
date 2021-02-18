@@ -18,6 +18,11 @@ export const ThemeProvider: React.FunctionComponent<ThemeProviderProps> = (
     deepmerge(defaultTheme, themeProp)
   );
 
+  React.useEffect(() => {
+    const mergedTheme = deepmerge(defaultTheme, themeProp);
+    setThemeState(mergedTheme);
+  }, [themeProp]);
+
   const setTheme = (newTheme: ThemeType) => {
     const mergedTheme = deepmerge(defaultTheme, newTheme);
     setThemeState(mergedTheme);

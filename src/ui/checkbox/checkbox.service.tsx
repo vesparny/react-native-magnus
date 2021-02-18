@@ -107,7 +107,7 @@ export const getIcon = (
           name={inactiveIcon}
           color={iconColor}
           style={{ zIndex: 2, position: 'relative' }}
-          fontFamily="AntDesign"
+          fontFamily="Ionicons"
           fontSize={fontSize}
         />
       );
@@ -123,7 +123,7 @@ export const getIcon = (
       name={iconName}
       color={iconColor}
       style={{ zIndex: 2, position: 'relative' }}
-      fontFamily="MaterialIcons"
+      fontFamily="Ionicons"
       fontSize={fontSize}
     />
   );
