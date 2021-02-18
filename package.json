@@ -1,6 +1,6 @@
 {
   "name": "react-native-magnus-fix",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "description": "A Utility-First React Native UI Framework",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -37,7 +37,6 @@
     "url": "https://github.com/jsartisan/react-native-magnus/issues"
   },
   "homepage": "https://github.com/jsartisan/react-native-magnus#readme",
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.11.0",
